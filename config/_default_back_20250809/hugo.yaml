@@ -15,7 +15,7 @@
 baseURL: /
 # 站点标题
 # Website title
-title: Dubhe_For_Blog
+title: Hugo NexT
 # 主题名称
 # Theme name
 theme: hugo-theme-next
@@ -29,7 +29,7 @@ hasCJKLanguage: true
 # 每页显示文章数量
 # Display items per page
 pagination:
-  pagerSize: 20
+  pagerSize: 10
 # 开启支持表情符号
 # Enable Emoji support
 enableEmoji: true

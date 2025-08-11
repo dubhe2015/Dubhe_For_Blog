@@ -57,13 +57,8 @@ main:
     pageRef: /archives
     pre: archive
     weight: 5
-  - identifier: categories
-    name:  分类
-    pageRef: /post/2025
-    pre: post
-    weight: 7
-  - identifier: managerial
-    name: 企业管理
-    pageRef: /managerial
-    pre: briefcase
-    weight: 8
+  - identifier: commonweal
+    name: 公益 404
+    pageRef: /404.html
+    pre: heartbeat
+    weight: 6

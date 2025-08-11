@@ -39,8 +39,13 @@ main:
     pageRef: /archives
     pre: archive
     weight: 5
+  - identifier: managerial
+    name: Managerial
+    pageRef: /managerial
+    pre: briefcase
+    weight: 6
   - identifier: commonweal
     name: Commonweal404
     pageRef: /404.html
     pre: heartbeat
-    weight: 6
+    weight: 7

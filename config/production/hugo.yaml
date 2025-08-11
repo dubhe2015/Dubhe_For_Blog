@@ -1,0 +1,46 @@
+# hugo.yaml for GitHub Pages
+baseURL: https://yourusername.github.io/
+title: Dubhe_For_Blog
+theme: hugo-theme-next
+defaultContentLanguage: zh-cn
+languageCode: zh-CN
+hasCJKLanguage: true
+pagination:
+  pagerSize: 20
+enableEmoji: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+sitemap:
+  filename: "sitemap.xml"
+  changefreq: "weekly"
+  priority: 0.5
+outputFormats:
+  RSS:
+    baseName: "rss"
+  LocalIndexes:
+    mediaType: application/xml
+    baseName: searchindexes
+    isPlainText: true
+    notAlternative: true
+  AlgoliaIndexes:
+    mediaType: application/json
+    baseName: algolia
+    isPlainText: true
+    notAlternative: true
+outputs:
+  home: ["HTML", "RSS", "LocalIndexes"]
+enableRobotsTXT: true
+minify:
+  minifyOutput: true

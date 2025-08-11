@@ -18,8 +18,8 @@ timeFormat: "2006年01月02日 15:04:05 CST"
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 # 开启暗模式
 # Dark Mode
@@ -30,8 +30,8 @@ darkmode: true
 # Site Information Settings
 author: Dubhe
 subtitle: Dubhe 个人小空间
-description: 沪上牛马，不断学习呗。
-keywords: Dubhe,上海,牛马,技术,管理
+description: 保持简单的易用性和强大的功能。
+keywords: Hugo,NexT,主题,简单,强大
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -168,9 +168,9 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/dubhe2015 || fab fa-github
-  social1: E-Mail || dubhe2000@outlook.com || fa fa-envelope
-  #social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  social0: Github || https://github.com/elkan1788 || fab fa-github
+  #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
+  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -212,13 +212,13 @@ linksSets:
 # Usage: `Key: name || permalink`
 links: 
   link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 乐运维 || https://lework.github.io/
+  link1: 凡梦星尘空间站 || https://lisenhui.cn
 
 # 文章目录显示
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
 toc:
-  enable: true
+  enable: false
   # 自动设置列表的数字
   # Automatically add list number to toc.
   number: true
@@ -246,7 +246,7 @@ footer:
   # 站点开始年份，默认为当下时间的年份
   # Specify the year when the site was setup. 
   # If not defined, current year will be used.
-  since: 2025
+  since: 2010
 
   # 年份和版权信息之间的图标
   # Icon between year and copyright info.
@@ -530,7 +530,7 @@ githubBanner:
   enable: true
   # 你的 Github 仓库地址
   # Your repository url on Github.
-  permalink: https://github.com/dubhe2015
+  permalink: https://github.com/hugo-next
   # 关注说明
   # Show this title when cursor move on.
   title: Follow me on GitHub
@@ -639,7 +639,7 @@ baiduSiteVerification: #<verify_code>
 # FancyBox is a tool that offers a nice and elegant way 
 # to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
-fancybox: true
+fancybox: false
 
 # TODO
 # Vanilla JavaScript plugin for lazyloading images.
@@ -995,7 +995,7 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 pace:
-  enable: true  
+  enable: false
   # All available colors:
   # black | blue | green | orange | pink | purple | red | silver | white | yellow
   color: blue

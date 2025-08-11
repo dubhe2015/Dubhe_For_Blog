@@ -3,3 +3,6 @@
 resources/
 public/
 config/development/
+
+# Ignore environment files
+.env
